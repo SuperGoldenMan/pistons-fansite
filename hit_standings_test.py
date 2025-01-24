@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, date
 import requests
 from dotenv import load_dotenv
 import os
@@ -14,6 +15,10 @@ headers = {
     "x-rapidapi-host": "api-nba-v1.p.rapidapi.com"
 }
 
+def update_last_run():#updates last_run
+    with open('last_run.txt', 'w') as f:
+        f.write(date.today().strftime('%Y-%m-%d'))
+
 def fetch_and_save():
     try:
         response = requests.get(url, headers=headers, params=querystring)
@@ -21,6 +26,7 @@ def fetch_and_save():
         data = response.json()
         with open('standings.json', 'w') as f:
             json.dump(data, f, indent=4)
+        update_last_run()
         print("NBA standings data saved successfully!")
     except requests.RequestException as e:
         print(f"API request failed: {e}")
