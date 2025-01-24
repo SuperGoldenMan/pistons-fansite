@@ -6,7 +6,7 @@ import os
 import subprocess
 
 load_dotenv()# Load environment variables
-print("Running hit_standings.py ...")
+print("Running hit_api.py ...")
 #inputs for nba api below:
 url = "https://api-nba-v1.p.rapidapi.com/standings"
 url_fixtures = "https://api-nba-v1.p.rapidapi.com/games"
