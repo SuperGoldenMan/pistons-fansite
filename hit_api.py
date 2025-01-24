@@ -9,17 +9,45 @@ load_dotenv()# Load environment variables
 print("Running hit_standings.py ...")
 #inputs for nba api below:
 url = "https://api-nba-v1.p.rapidapi.com/standings"
+url_fixtures = "https://api-nba-v1.p.rapidapi.com/games"
 querystring = {"league":"standard","season":"2024"}
+querystring_fixtures = {"season":"2024","team":"10"}
 headers = {
 	"x-rapidapi-key": os.getenv('NBA_API_KEY'),
 	"x-rapidapi-host": "api-nba-v1.p.rapidapi.com"
 }
 
+
 #Functions used by main process
-def git_push_changes():#git automated commands
+def fetch_fixtures():#api call for fixtures list
+    try: 
+        response = requests.get(url_fixtures, headers=headers, params=querystring_fixtures)
+        response.raise_for_status()
+        data = response.json()
+        with open('pistonsgames.json', 'w') as f:
+            json.dump(data, f, indent=4)
+        print("Pistons fixtures data saved successfully!")
+    except requests.RequestException as e:
+        print(f"API request failed: {e}")
+    except json.JSONDecodeError as e:
+        print(f"JSON parsing failed: {e}")
+
+def fetch_standings():#api call for standings
     try:
-        subprocess.run(["git", "add", "standings.json"], check=True)
-        commit_message = f"Update NBA standings data {date.today()}"
+        response = requests.get(url, headers=headers, params=querystring)
+        data = response.json()
+        with open('standings.json', 'w') as f:
+            json.dump(data, f)
+            print("NBA standings data saved successfully!")
+    except requests.RequestException as e:
+        print(f"API request failed: {e}")
+    except json.JSONDecodeError as e:
+        print(f"JSON parsing failed: {e}")
+
+def git_push_changes():
+    try:
+        subprocess.run(["git", "add", "standings.json", "pistonsgames.json"], check=True)
+        commit_message = f"Update NBA data {date.today()}"
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
         subprocess.run(["git", "push", "origin", "main"], check=True)
         print("Changes pushed to GitHub successfully!")
@@ -43,16 +71,14 @@ def update_last_run():#updates last_run
 def fetch_and_save():#calls api to return json data and dumps it in standings.json
     if should_run():
         try:
-            response = requests.get(url, headers=headers, params=querystring)
-            data = response.json()
-            with open('standings.json', 'w') as f:
-                json.dump(data, f)
+            fetch_standings()
+            fetch_fixtures()
             update_last_run()
-            print("API data updated successfully")
+            print("NBA API hit succesfully!...")
             git_push_changes()
         except Exception as e:
             print(f"Error: {e}")
     else:
-        print("Already ran today, skipping...")
-
-fetch_and_save()#run the script
+        print("API already hit today!")
+#run the script
+fetch_and_save()
