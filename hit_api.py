@@ -4,9 +4,10 @@ import requests
 from dotenv import load_dotenv
 import os
 import subprocess
-
 load_dotenv()# Load environment variables
 print("Running hit_api.py ...")
+
+
 #inputs for nba api below:
 url = "https://api-nba-v1.p.rapidapi.com/standings"
 url_fixtures = "https://api-nba-v1.p.rapidapi.com/games"
@@ -44,7 +45,7 @@ def fetch_standings():#api call for standings
     except json.JSONDecodeError as e:
         print(f"JSON parsing failed: {e}")
 
-def git_push_changes():
+def git_push_changes():#push to origin main
     try:
         subprocess.run(["git", "add", "standings.json", "pistonsgames.json"], check=True)
         commit_message = f"Update NBA data {date.today()}"
@@ -67,6 +68,7 @@ def update_last_run():#updates last_run
     with open('last_run.txt', 'w') as f:
         f.write(date.today().strftime('%Y-%m-%d'))
 
+
 #Main function
 def fetch_and_save():#calls api to return json data and dumps it in standings.json
     if should_run():
@@ -80,5 +82,7 @@ def fetch_and_save():#calls api to return json data and dumps it in standings.js
             print(f"Error: {e}")
     else:
         print("API already hit today!")
+
+
 #run the script
 fetch_and_save()
