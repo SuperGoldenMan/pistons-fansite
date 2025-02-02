@@ -4024,13 +4024,13 @@
             },
             "stage": 2,
             "status": {
-                "clock": "6:57",
+                "clock": null,
                 "halftime": false,
-                "short": 2,
-                "long": "In Play"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 2,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -4066,11 +4066,11 @@
                     },
                     "linescore": [
                         "32",
-                        "12",
-                        "",
-                        ""
+                        "26",
+                        "27",
+                        "17"
                     ],
-                    "points": 44
+                    "points": 102
                 },
                 "home": {
                     "win": 0,
@@ -4081,11 +4081,11 @@
                     },
                     "linescore": [
                         "28",
-                        "16",
-                        "",
-                        ""
+                        "34",
+                        "31",
+                        "24"
                     ],
-                    "points": 44
+                    "points": 117
                 }
             },
             "officials": [],
