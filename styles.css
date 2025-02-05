@@ -184,6 +184,7 @@ body {
     gap: 20px;
     justify-items: center;
     margin-top: 20px;
+    height: 95%;
 }
 
 .player-item {
@@ -194,7 +195,7 @@ body {
 
 .player-number {
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 70%;
     transform: translate(-50%, -50%);
     font-size: 15em;
@@ -388,10 +389,11 @@ img {
 }
 
 
-/* Contacts screen content */
+/* Community screen content */
 #explanation {
     width: 80%;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .carousel-container {
@@ -412,6 +414,7 @@ img {
     color: rgba(200, 16, 46, 0.9);
     font-weight: bold;
     font-size: 200%;
+    margin-top: 5vh;
 }
 
 .carousel-track {
@@ -488,6 +491,7 @@ img {
 }
 
 .section-title {
+  margin-top: 5vh;
   margin-bottom: 10px;
   font-size: 1.5em;
   color: rgba(200, 16, 46, 0.9);
