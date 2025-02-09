@@ -4346,13 +4346,13 @@
             "status": {
                 "clock": null,
                 "halftime": false,
-                "short": 2,
-                "long": "In Play"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 1,
+                "current": 4,
                 "total": 4,
-                "endOfPeriod": true
+                "endOfPeriod": false
             },
             "arena": {
                 "name": "Little Caesars Arena",
@@ -4386,11 +4386,11 @@
                     },
                     "linescore": [
                         "27",
-                        "",
-                        "",
-                        ""
+                        "22",
+                        "39",
+                        "24"
                     ],
-                    "points": 27
+                    "points": 112
                 },
                 "home": {
                     "win": 0,
@@ -4401,11 +4401,11 @@
                     },
                     "linescore": [
                         "42",
-                        "",
-                        "",
-                        ""
+                        "36",
+                        "29",
+                        "18"
                     ],
-                    "points": 42
+                    "points": 125
                 }
             },
             "officials": [],
