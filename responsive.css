@@ -2,7 +2,11 @@
 /* Hiding responsive elements for main css sheet */
 @media only screen and (min-width: 992px){
 
-.content#mobile-home{
+.content#mobile-home {
+    display: none;
+}
+
+.mobile-navbar {
     display: none;
 }
 
@@ -24,7 +28,88 @@
     display: none;
 }
 
-/* start */
+/* general */
+.mobile-navbar {
+    position: absolute;
+    z-index: 10;
+}
+
+#mobile-menu-button {
+    color: #fff;
+    background-color: #C8102E;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px; /* Adjust the size as needed */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#mobile-menu-button::before {
+    content: "≡"; /* Unicode for three horizontal lines */
+    font-size: 24px;
+    color: white; /* White lines */
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    justify-content: center; /* Centers items vertically */
+    align-items: center; /* Centers items horizontally */
+    color: #fff;
+    z-index: 50;
+}
+
+/* Styling for the navigation list */
+.mobile-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+    text-align: center;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    margin-bottom: 15px; /* Adds spacing between each list item */
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Move the close button below the menu */
+#close-menu {
+    margin-top: 30px; /* Adds space between nav list and close button */
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #C8102E; /* Piston’s red */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#close-menu:hover {
+    background-color: #A00E25; /* Darker red on hover */
+}
+
+.display-menu {
+    display: flex;
+}
+
 
 body {
     background-color: #0A4B9B;
