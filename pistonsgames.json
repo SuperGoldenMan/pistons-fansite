@@ -4824,13 +4824,13 @@
             },
             "stage": 2,
             "status": {
-                "clock": "1:23",
+                "clock": null,
                 "halftime": false,
-                "short": 2,
-                "long": "In Play"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 2,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -4866,11 +4866,11 @@
                     },
                     "linescore": [
                         "17",
-                        "28",
-                        "",
-                        ""
+                        "32",
+                        "26",
+                        "22"
                     ],
-                    "points": 45
+                    "points": 97
                 },
                 "home": {
                     "win": 0,
@@ -4881,11 +4881,11 @@
                     },
                     "linescore": [
                         "23",
-                        "23",
-                        "",
-                        ""
+                        "28",
+                        "34",
+                        "21"
                     ],
-                    "points": 46
+                    "points": 106
                 }
             },
             "officials": [],
@@ -4938,23 +4938,33 @@
             },
             "scores": {
                 "visitors": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
+                    "linescore": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
                     "points": null
                 },
                 "home": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
+                    "linescore": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
                     "points": null
                 }
             },
