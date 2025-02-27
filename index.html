@@ -62,9 +62,76 @@
 </div>
 
     </div><!-- end of home -->
+
+    <div class="content" id="games">
+      <h1 id="screen-title">Recent & Upcoming Games</h1>
+  
+      <div class="fixture-bar">
+          <div class="fixtures last-results">
+              <h3>Last Games</h3>
+              <div id="mobile-last-results" class="games-container"></div>
+          </div>
+  
+          <div class="fixtures upcoming-games">
+              <h3>Next Games</h3>
+              <div id="mobile-upcoming-games" class="games-container"></div>
+          </div>
+      </div>
+  </div><!-- end of games screen-->
+  
     
     <div class="content" id="team">
     <h1 id="screen-title">Meet The Squad</h1>
+
+    <div class="player-carousel">
+      <div class="player-slide active">
+          <img src="assets/player-headshots/cade-cunningham.png" alt="Cade Cunningham" />
+          <h2 class="player-name">Cade Cunningham</h2>
+      </div>
+      <div class="player-slide">
+          <img src="assets/player-headshots/jaden-ivey.png" alt="Jaden Ivey" />
+          <h2 class="player-name">Jaden Ivey</h2>
+      </div>
+      <div class="player-slide">
+          <img src="assets/player-headshots/malik-beasley.png" alt="Malik Beasley" />
+          <h2 class="player-name">Malik Beasley</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/tobias-harris.png" alt="Tobias Harris" />
+        <h2 class="player-name">Tobias Harris</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/jalen-duren.png" alt="Jalen Duren" />
+        <h2 class="player-name">Jalen Duren</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/marcus-sasser.png" alt="Marcus Sasser" />
+        <h2 class="player-name">Marcus Sasser</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/tim-hj.png" alt="Tim Hardaway Jr." />
+        <h2 class="player-name">Tim Hardaway Jr.</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/ausar-thompson.png" alt="Ausar Thompson" />
+        <h2 class="player-name">Ausar Thompson</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/simone-fontecchio.png" alt="Simone Fontecchio" />
+        <h2 class="player-name">Simone Fontecchio</h2>
+      </div>
+      <div class="player-slide">
+        <img src="assets/player-headshots/isaiah-stewart.png" alt="Isaiah Stewart" />
+        <h2 class="player-name">Isaiah Stewart</h2>
+      </div>
+  </div>
+  
+  <!-- Progress Indicator -->
+  <div class="scroll-indicator">
+      <div class="scroll-bar"></div>
+  </div>
+
+
     <div class="player-grid">
         <div class="player-item" data-player-id="cunnica01">
             <span class="player-number">2</span>
@@ -273,6 +340,9 @@
   <script src="last-year-stats.js"></script>
   <script src="standings.js"></script>
   <script src="menu.js"></script>
+  <script src="player-swipe.js"></script>
+  <script src="games-mobile.js"></script>
+
 
 </body>
 </html>
