@@ -80,18 +80,6 @@ body {
     box-sizing: border-box;
 }
 
-.content#landing {
-    /* height: calc(100vh - 12vh); */
-    /* margin-top: 12vh;  */
-    scroll-margin-top: 12vh;
-    background-image: url('assets/bw-logo.png');
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
 .content#home {
     background-image: url('assets/landing-page.jpg');
     background-attachment: fixed;
@@ -110,6 +98,43 @@ body {
 }
 
 /* Landing screen split */
+#landing {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    background: url('assets/bw-logo.png') center no-repeat;
+    background-color: #000;
+    overflow: hidden;
+}
+
+/* Spacer (200vh to push content down) */
+#spacer1 {
+    width: 100%;
+    height: 100vh;
+    background: url('assets/bw-logo.png') center no-repeat;
+    background-color: #000;
+    z-index: -1;
+}
+#spacer2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    z-index: -1;
+    background-image: url('assets/bw-logo.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.scrolling #landing {
+    position: absolute;
+    top: 0;
+}
+
 
 section {
     position: fixed;
