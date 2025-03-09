@@ -21,14 +21,10 @@ body {
     justify-content: center;
     z-index: 1000;
     box-shadow: 0 4px 10px #1D428A;
-    background-color: rgba(200, 16, 46, 0.9);
+    background-color: rgba(200, 16, 46, 1.0);
     transition: transform 0.3s ease-in-out;
 }
 
-/* .navbar.hidden {
-    transform: translateY(-100%);
-    transition-delay: 0.5s;
-} */
 
 .navbar nav ul {
     display: flex;
@@ -84,10 +80,19 @@ body {
     box-sizing: border-box;
 }
 
-.content#home {
-    height: calc(100vh - 12vh);
-    margin-top: 12vh; 
+.content#landing {
+    /* height: calc(100vh - 12vh); */
+    /* margin-top: 12vh;  */
     scroll-margin-top: 12vh;
+    background-image: url('assets/cade-all-star.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.content#home {
     background-image: url('assets/landing-page.jpg');
     background-attachment: fixed;
     background-position: center;

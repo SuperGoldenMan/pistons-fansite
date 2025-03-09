@@ -29,6 +29,9 @@
 @media only screen and (max-width: 992px){
 
 /* Hiding Main elements */
+.content#landing {
+    display:none;
+}
 
 .navbar {
     display: none;
