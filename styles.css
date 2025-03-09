@@ -84,12 +84,12 @@ body {
     /* height: calc(100vh - 12vh); */
     /* margin-top: 12vh;  */
     scroll-margin-top: 12vh;
-    /* background-image: url('assets/cade-all-star.jpg'); */
-    /* background-attachment: fixed;
+    background-image: url('assets/bw-logo.png');
+    background-color: #000;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
+    position: relative;
 }
 
 .content#home {
