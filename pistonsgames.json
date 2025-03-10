@@ -5304,13 +5304,13 @@
             },
             "stage": 2,
             "status": {
-                "clock": "9:35",
+                "clock": null,
                 "halftime": false,
-                "short": 2,
-                "long": "In Play"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 1,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -5345,12 +5345,12 @@
                         "loss": 0
                     },
                     "linescore": [
-                        "0",
-                        "",
-                        "",
-                        ""
+                        "20",
+                        "34",
+                        "33",
+                        "23"
                     ],
-                    "points": 0
+                    "points": 110
                 },
                 "home": {
                     "win": 0,
@@ -5360,12 +5360,12 @@
                         "loss": 0
                     },
                     "linescore": [
-                        "9",
-                        "",
-                        "",
-                        ""
+                        "22",
+                        "29",
+                        "33",
+                        "31"
                     ],
-                    "points": 9
+                    "points": 115
                 }
             },
             "officials": [],
@@ -5386,11 +5386,11 @@
             "status": {
                 "clock": null,
                 "halftime": false,
-                "short": 1,
-                "long": "Scheduled"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 0,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -5418,24 +5418,34 @@
             },
             "scores": {
                 "visitors": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "31",
+                        "33",
+                        "33",
+                        "22"
+                    ],
+                    "points": 119
                 },
                 "home": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "28",
+                        "30",
+                        "28",
+                        "26"
+                    ],
+                    "points": 112
                 }
             },
             "officials": [],
