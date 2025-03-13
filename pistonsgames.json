@@ -5578,23 +5578,33 @@
             },
             "scores": {
                 "visitors": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
+                    "linescore": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
                     "points": null
                 },
                 "home": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
+                    "linescore": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
                     "points": null
                 }
             },
