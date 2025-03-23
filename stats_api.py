@@ -48,11 +48,11 @@ def fetch_and_save():#calls api to return json data and dumps it in playerstats.
         try:
             fetch_stats()
             git_add_changes()
-            print("stats_api run was successfull!")
+            print("stats_api run was successfull! Stats now up to date")
         except Exception as e:
             print(f"Error: {e}")
     else:
-        print("API already hit today!")
+        print("Stats up to date")
 
 
 #run the script
