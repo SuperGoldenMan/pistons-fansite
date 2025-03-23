@@ -47,7 +47,7 @@ def fetch_standings():#api call for standings
 
 def git_push_changes():#push to origin main
     try:
-        subprocess.run(["git", "add", "standings.json", "pistonsgames.json"], check=True)
+        subprocess.run(["git", "add", "standings.json", "pistonsgames.json", "playerstats.json"], check=True)
         commit_message = f"Update NBA data {date.today()}"
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
         subprocess.run(["git", "push", "origin", "main"], check=True)
