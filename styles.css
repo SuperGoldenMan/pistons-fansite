@@ -308,6 +308,10 @@ section .side img {
     z-index: 2000;
 }
 
+.overlay.active {
+    display: flex;
+  }
+
 
 /* Overlay content animation */
 @keyframes scaleUp {

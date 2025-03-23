@@ -76,7 +76,7 @@ def fetch_and_save():#calls api to return json data and dumps it in standings.js
             fetch_standings()
             fetch_fixtures()
             update_last_run()
-            print("NBA API hit succesfully!...")
+            print("NBA API hit successfully!...")
             git_push_changes()
         except Exception as e:
             print(f"Error: {e}")
