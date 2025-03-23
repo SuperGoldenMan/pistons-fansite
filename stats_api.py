@@ -35,7 +35,6 @@ def git_add_changes():#add changes
         print(f"Git operation failed: {e}")
 
 def should_run():#check last_run to limit usage
-    print("Checking if NBA API needs to be called...")
     try:
         with open('last_run.txt', 'r') as f:
             last_run = datetime.strptime(f.read().strip(), '%Y-%m-%d').date()
