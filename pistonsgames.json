@@ -5946,11 +5946,11 @@
             "status": {
                 "clock": null,
                 "halftime": false,
-                "short": 1,
-                "long": "Scheduled"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 0,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -5985,12 +5985,12 @@
                         "loss": 0
                     },
                     "linescore": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "27",
+                        "32",
+                        "32",
+                        "39"
                     ],
-                    "points": null
+                    "points": 130
                 },
                 "home": {
                     "win": 0,
@@ -6000,12 +6000,12 @@
                         "loss": 0
                     },
                     "linescore": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "36",
+                        "32",
+                        "25",
+                        "43"
                     ],
-                    "points": null
+                    "points": 136
                 }
             },
             "officials": [],
