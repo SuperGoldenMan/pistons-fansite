@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Indie+Flower&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Great+Vibes&family=Indie+Flower&family=Jim+Nightshade&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
 /* General Styling */
 * {
     margin: 0;
@@ -91,7 +91,10 @@ body {
 
 #screen-title {
     color: #1D428A;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 80px;
     text-shadow: 5px 5px 5px #C8102E;
     padding-top: 12vh;
@@ -169,7 +172,8 @@ section .side img {
 /* Styling specifically for the home subtitle */
 .content#home h1 {
     color: #fff;
-    background-color: rgb(0 0 0 / .2);
+    -webkit-text-stroke: 2px black;
+    padding-top: 20vh;
 }
 
 .content#home h2 {
@@ -191,6 +195,7 @@ section .side img {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 5%;
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -294,6 +299,7 @@ section .side img {
 }
 
 
+
 /* Overlay styling */
 .overlay {
     position: fixed;
@@ -301,94 +307,215 @@ section .side img {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(10, 10, 10, 0.5);
+    background: rgba(46, 75, 217, 0.199);
     display: none;
     align-items: center;
     justify-content: center;
     z-index: 2000;
-}
-
-.overlay.active {
+  }
+  
+  .overlay.active {
     display: flex;
+  }
+  
+  @keyframes scaleUp {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .overlay-content {
+    background: #1D428A;
+    padding: 20px;
+    border-radius: 16px;
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    animation: scaleUp 0.3s ease-out;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    font-family: Roboto, sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 20px;
+  }
+  
+  .last-game-bar {
+    color: white;
+    text-align: center;
+    height: 50%;
+  }
+
+  .last-game-bar h1 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+  }
+
+  .last-game-bar h2 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 20px;
   }
 
 
-/* Overlay content animation */
-@keyframes scaleUp {
-    from {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
+  #previously {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #opponent {
+    color: #C8102E;
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-.overlay-content {
-    background: #1D428A;
-    padding: 20px;
-    border-radius: 8px;
-    width: 50vw; 
-    height: 80vh;
-    display: flex; 
-    gap: 20px; 
-    text-align: left;
-    font-family: Roboto, sans-serif;
-    animation: scaleUp 0.3s ease-out;
-}
+  .last-game-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 12px;
+    margin-top: 10px;
+    text-align: center;
+    justify-items: center;
+  }
+  
+  .stat-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    max-width: 100px;
+    color: white;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  
+  .stat-box:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    [data-stat-type].stat-better,
+    [data-stat-type].stat-neutral,
+    [data-stat-type].stat-worse {
+    
+    will-change: transform;
+    }
 
-.overlay-left {
+  }
+  
+  .stat-box span {
+    font-size: 0.75rem;
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .stat-box strong {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .stat-box.stat-better:hover {
+    background-color: rgba(0, 200, 83, 0.5); /* green */
+  }
+  
+  .stat-box.stat-neutral:hover {
+    background-color: rgba(255, 235, 59, 0.5); /* yellow */
+  }
+  
+  .stat-box.stat-worse:hover {
+    background-color: rgba(244, 67, 54, 0.5); /* red */
+  }
+  
+
+  [data-stat-type].stat-better {
+    color: #2ecc71;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  [data-stat-type].stat-neutral {
+    color: #f1c40f;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  [data-stat-type].stat-worse {
+    color: #e74c3c;
+    font-size: 1.25em;
+    font-weight: bold;
+  }
+  
+  
+
+  /* Season Stats Vertical List */
+  .player-stats {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    padding: 10px 0 0 10px;
+    color: white;
+    border-bottom: 2px solid rgba(200, 16, 46, 0.8);
+    height: 50%;
+  }
+  
+  .player-stats h1 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #C8102E;
+    margin-bottom: 10px;
+  }
+  
+  .player-stats p {
+    margin: 6px 0;
+    font-size: 1em;
+  }
+  
+  .player-stats p span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  /* RIGHT SIDE: Player Image */
+  .overlay-right {
     flex: 1;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    padding: 20px; 
-}
-
-.overlay-left h2, 
-.overlay-left p {
-    margin: 10px 0; 
-    text-align: center;
-}
-
-.overlay-right {
-    flex: 1; 
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    padding: 0 20px; 
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
     position: relative;
-}
-
-.overlay-right img {
-    width: 100%;
+  }
+  
+  .overlay-right img {
+    width: auto;
     height: auto;
     max-height: 100%;
     object-fit: contain;
-    border: solid 5px;
-    border-color: rgba(200, 16, 46, 0.9);
-}
-
-.overlay-content p, .overlay-content span {
-    color: white;
-}
-.overlay-content span {
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-
-.overlay-content h2 {
-    font-family: 'Dancing Script', cursive;
-    color: rgba(200, 16, 46, 0.9);
-    text-decoration: underline;
-    text-decoration-color: white;
-    font-size: 3vh;
-}
-
-.close-btn {
+    border: 5px solid rgba(200, 16, 46, 0.9);
+  }
+  
+  /* Close button */
+  .close-btn {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -401,13 +528,13 @@ section .side img {
     transition: transform 0.3s ease, color 0.3s ease;
     padding-top: 10px;
     padding-right: 30px;
-}
-
-.close-btn:hover {
+  }
+  
+  .close-btn:hover {
     transform: scale(1.2);
     color: #A00;
-}
-
+  }
+  
 
 /* Standings screen content */
 .content#standings {

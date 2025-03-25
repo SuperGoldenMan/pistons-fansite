@@ -200,9 +200,10 @@
     </div>
 
     <div id="player-overlay" class="overlay">
-        <div class="overlay-content">
-          <div class="overlay-left">
-            <h2 id="overlay-player-name"></h2>
+      <div class="overlay-content">
+        <div class="overlay-left">
+          <div class="player-stats">
+            <h1 id="overlay-player-name"></h1>
             <p>PPG: <span id="overlay-ppg"></span></p>
             <p>RPG: <span id="overlay-rpg"></span></p>
             <p>APG: <span id="overlay-apg"></span></p>
@@ -212,11 +213,16 @@
             <p>3PT%: <span id="overlay-3ptp"></span></p>
             <p>FT%: <span id="overlay-ftp"></span></p>
           </div>
-          <div class="overlay-right">
-            <img id="overlay-player-image" />
-            <button class="close-btn" onclick="closeOverlay()">✖</button>
+          <div id="overlay-last-game" class="last-game-bar">
+            <!-- Last game stats inserted via JS -->
           </div>
         </div>
+        <div class="overlay-right">
+          <img id="overlay-player-image" />
+          <button class="close-btn" onclick="closeOverlay()">✖</button>
+        </div>
+      </div>
+      
     </div>
 </div><!-- end of team -->
 
