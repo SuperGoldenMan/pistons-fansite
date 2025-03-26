@@ -6026,11 +6026,11 @@
             "status": {
                 "clock": null,
                 "halftime": false,
-                "short": 1,
-                "long": "Scheduled"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 0,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -6058,24 +6058,34 @@
             },
             "scores": {
                 "visitors": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "22",
+                        "12",
+                        "35",
+                        "27"
+                    ],
+                    "points": 96
                 },
                 "home": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "30",
+                        "30",
+                        "28",
+                        "34"
+                    ],
+                    "points": 122
                 }
             },
             "officials": [],
