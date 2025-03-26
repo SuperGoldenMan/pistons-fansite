@@ -88,6 +88,7 @@ def update_last_run():#updates last_run
 def fetch_and_save():#calls api to return json data and dumps it in standings.json
     if should_run():
         try:
+            fetch_stats()
             fetch_standings()
             fetch_fixtures()
             update_last_run()
