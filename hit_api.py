@@ -13,6 +13,8 @@ url = "https://api-nba-v1.p.rapidapi.com/standings"
 url_fixtures = "https://api-nba-v1.p.rapidapi.com/games"
 querystring = {"league":"standard","season":"2024"}
 querystring_fixtures = {"season":"2024","team":"10"}
+url_stats = "https://api-nba-v1.p.rapidapi.com/players/statistics"
+querystring_stats = {"team":"10","season":"2024"}
 headers = {
 	"x-rapidapi-key": os.getenv('NBA_API_KEY'),
 	"x-rapidapi-host": "api-nba-v1.p.rapidapi.com"
@@ -20,6 +22,19 @@ headers = {
 
 
 #Functions used by main process
+def fetch_stats():#api call for playerstats
+    try:
+        response = requests.get(url_stats, headers=headers, params=querystring_stats)
+        data = response.json()
+        with open('playerstats.json', 'w') as f:
+            json.dump(data, f)
+            print("Player stats data saved successfully!")
+    except requests.RequestException as e:
+        print(f"API request failed: {e}")
+    except json.JSONDecodeError as e:
+        print(f"JSON parsing failed: {e}")
+
+
 def fetch_fixtures():#api call for fixtures list
     try: 
         response = requests.get(url_fixtures, headers=headers, params=querystring_fixtures)
