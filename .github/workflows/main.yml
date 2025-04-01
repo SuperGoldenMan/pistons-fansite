@@ -3,6 +3,7 @@ name: run hit_api.py
 on:
   schedule:
     - cron: '0 7 * * *' # At 07:00 every day
+  workflow_dispatch:
 
 jobs:
   build:
