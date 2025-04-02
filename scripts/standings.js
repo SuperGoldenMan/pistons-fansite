@@ -26,8 +26,10 @@ function displayStandings(data) {
 
     // Function to construct the image path based on your custom images
     function getTeamLogoPath(teamId) {
-        return `../assets/team-logos/${teamId}.png`;
-    }
+    const isGitHubPages = window.location.hostname.includes('github.io');
+    const baseAssetPath = isGitHubPages ? '/pistons-fansite/assets/team-logos/' : '../assets/team-logos/';
+    return `${baseAssetPath}${teamId}.png`;
+}
 
     // Populate Eastern Conference Table
     easternConference.forEach(teamData => {
