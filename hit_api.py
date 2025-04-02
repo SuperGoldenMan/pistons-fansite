@@ -86,18 +86,18 @@ def update_last_run():#updates last_run
 
 #Main function
 def fetch_and_save():#calls api to return json data and dumps it in standings.json
-    if should_run():
-        try:
-            fetch_stats()
-            fetch_standings()
-            fetch_fixtures()
-            update_last_run()
-            print("NBA API hit successfully!...")
-            git_push_changes()
-        except Exception as e:
-            print(f"Error: {e}")
-    else:
-        print("API already hit today!")
+    # if should_run():
+    try:
+        fetch_stats()
+        fetch_standings()
+        fetch_fixtures()
+        # update_last_run()
+        print("NBA API hit successfully!...")
+        git_push_changes()
+    except Exception as e:
+        print(f"Error: {e}")
+    # else:
+        # print("API already hit today!")
 
 
 #run the script
