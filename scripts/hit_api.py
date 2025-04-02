@@ -54,20 +54,20 @@ def fetch_with_retry(url, querystring, file_name, description):
             return
 
 def fetch_stats():
-    fetch_with_retry(url_stats, querystring_stats, "../data/playerstats.json", "Player stats")
+    fetch_with_retry(url_stats, querystring_stats, "data/playerstats.json", "Player stats")
     time.sleep(3)
 
 def fetch_standings():
-    fetch_with_retry(url, querystring, "../data/standings.json", "NBA standings")
+    fetch_with_retry(url, querystring, "data/standings.json", "NBA standings")
     time.sleep(3)
 
 def fetch_fixtures():
-    fetch_with_retry(url_fixtures, querystring_fixtures, "../data/pistonsgames.json", "Pistons fixtures")
+    fetch_with_retry(url_fixtures, querystring_fixtures, "data/pistonsgames.json", "Pistons fixtures")
     time.sleep(3)
 
 def git_push_changes():#push to origin main
     try:
-        subprocess.run(["git", "add", "../data/standings.json", "../data/pistonsgames.json", "../data/playerstats.json"], check=True)
+        subprocess.run(["git", "add", "data/standings.json", "data/pistonsgames.json", "data/playerstats.json"], check=True)
         result = subprocess.run(["git", "diff", "--cached", "--quiet"])
         if result.returncode == 0:
             print("No changes to commit.")
