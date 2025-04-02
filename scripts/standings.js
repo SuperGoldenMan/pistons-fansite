@@ -1,6 +1,6 @@
 async function loadStandings() {
     try {
-        const response = await fetch('standings.json'); 
+        const response = await fetch('../data/standings.json'); 
         const data = await response.json();
         displayStandings(data);
     } catch (error) {
@@ -23,7 +23,7 @@ function displayStandings(data) {
 
     // Function to construct the image path based on your custom images
     function getTeamLogoPath(teamId) {
-        return `assets/team-logos/${teamId}.png`;
+        return `../assets/team-logos/${teamId}.png`;
     }
 
     // Populate Eastern Conference Table

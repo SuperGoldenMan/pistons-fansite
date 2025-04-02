@@ -54,20 +54,20 @@ def fetch_with_retry(url, querystring, file_name, description):
             return
 
 def fetch_stats():
-    fetch_with_retry(url_stats, querystring_stats, "playerstats.json", "Player stats")
+    fetch_with_retry(url_stats, querystring_stats, "../data/playerstats.json", "Player stats")
     time.sleep(3)
 
 def fetch_standings():
-    fetch_with_retry(url, querystring, "standings.json", "NBA standings")
+    fetch_with_retry(url, querystring, "../data/standings.json", "NBA standings")
     time.sleep(3)
 
 def fetch_fixtures():
-    fetch_with_retry(url_fixtures, querystring_fixtures, "pistonsgames.json", "Pistons fixtures")
+    fetch_with_retry(url_fixtures, querystring_fixtures, "../data/pistonsgames.json", "Pistons fixtures")
     time.sleep(3)
 
 def git_push_changes():#push to origin main
     try:
-        subprocess.run(["git", "add", "standings.json", "pistonsgames.json", "playerstats.json"], check=True)
+        subprocess.run(["git", "add", "../data/standings.json", "../data/pistonsgames.json", "../data/playerstats.json"], check=True)
         result = subprocess.run(["git", "diff", "--cached", "--quiet"])
         if result.returncode == 0:
             print("No changes to commit.")
@@ -84,19 +84,6 @@ def git_push_changes():#push to origin main
         log_error(error_msg)
 
 
-# def should_run():#check last_run to limit usage
-#     print("Checking if NBA API needs to be called...")
-#     try:
-#         with open('last_run.txt', 'r') as f:
-#             last_run = datetime.strptime(f.read().strip(), '%Y-%m-%d').date()
-#             return last_run < date.today()
-#     except FileNotFoundError:
-#         return True
-
-# def update_last_run():#updates last_run
-#     with open('last_run.txt', 'w') as f:
-#         f.write(date.today().strftime('%Y-%m-%d'))
-
 
 #Main function
 def fetch_and_save():#calls api to return json data and dumps it in standings.json
@@ -104,7 +91,6 @@ def fetch_and_save():#calls api to return json data and dumps it in standings.js
         fetch_stats()
         fetch_standings()
         fetch_fixtures()
-        # update_last_run()
         print("NBA API hit successfully!...")
         git_push_changes()
     except Exception as e:

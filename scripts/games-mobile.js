@@ -1,6 +1,6 @@
 async function loadMobileGameData() {
     try {
-        const response = await fetch('pistonsgames.json');
+        const response = await fetch('../data/pistonsgames.json');
         const data = await response.json();
         displayMobileFixtures(data);
     } catch (error) {
@@ -9,7 +9,7 @@ async function loadMobileGameData() {
 }
 
 function getTeamLogoPath(teamId) {
-    return `assets/team-logos/${teamId}.png`;
+    return `../assets/team-logos/${teamId}.png`;
 }
 
 function displayMobileFixtures(data) {

@@ -41,8 +41,8 @@ const players = [
 
 // Load JSON data
 Promise.all([
-  fetch('playerstats.json').then(res => res.json()),
-  fetch('pistonsgames.json').then(res => res.json())
+  fetch('../data/playerstats.json').then(res => res.json()),
+  fetch('../data/pistonsgames.json').then(res => res.json())
 ]).then(([playerData, gameData]) => {
   window.fullStatsData = playerData;
   window.pistonsGameData = gameData.response;

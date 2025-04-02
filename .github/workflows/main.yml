@@ -32,4 +32,4 @@ jobs:
       - name: execute py script
         env:
           NBA_API_KEY: ${{ secrets.NBA_API_KEY }}
-        run: python hit_api.py
+        run: python scripts/hit_api.py

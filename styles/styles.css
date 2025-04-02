@@ -81,7 +81,7 @@ body {
 }
 
 .content#home {
-    background-image: url('assets/landing-page.jpg');
+    background-image: url('../assets/landing-page.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,7 +108,7 @@ body {
     width: 100%;
     height: 100vh;
     z-index: 1000;
-    background: url('assets/bw-logo.png') center no-repeat;
+    background: url('../assets/bw-logo.png') center no-repeat;
     background-color: #000;
     overflow: hidden;
 }
@@ -117,7 +117,7 @@ body {
 #spacer1 {
     width: 100%;
     height: 100vh;
-    background: url('assets/bw-logo.png') center no-repeat;
+    background: url('../assets/bw-logo.png') center no-repeat;
     background-color: #000;
     z-index: -1;
 }
@@ -126,7 +126,7 @@ body {
     height: 100vh;
     background-color: #000;
     z-index: -1;
-    background-image: url('assets/bw-logo.png');
+    background-image: url('../assets/bw-logo.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -688,37 +688,37 @@ section .side img {
 }
 
 #rasheer {
-  background: url('assets/draft/sju.png') center no-repeat;
+  background: url('../assets/draft/sju.png') center no-repeat;
   background-size: 50% auto;
   background-color: #fff;
 }
 
 #hugo {
-  background: url('assets/draft/madrid.png') center no-repeat;
+  background: url('../assets/draft/madrid.png') center no-repeat;
   background-size: contain;
   background-color: #fff;
 }
 
 #asa {
-  background: url('assets/draft/georgia.png') center no-repeat;
+  background: url('../assets/draft/georgia.png') center no-repeat;
   background-size: 50% auto;
   background-color: #fff;
 }
 
 #ivisic {
-  background: url('assets/draft/illinois.png') center no-repeat;
+  background: url('../assets/draft/illinois.png') center no-repeat;
   background-size: 50% auto;
   background-color: #fff;
 }
 
 #wolf {
-  background: url('assets/draft/michigan.png') center no-repeat;
+  background: url('../assets/draft/michigan.png') center no-repeat;
   background-size: 50% auto;
   background-color: #fff;
 }
 
 #boogie {
-  background: url('assets/draft/arkansas.png') center no-repeat;
+  background: url('../assets/draft/arkansas.png') center no-repeat;
   background-size: 50% auto;
   background-color: #fff;
 }
@@ -842,25 +842,25 @@ td.position {
 }
 
 #dpnba {
-    background-image: url('assets/logo.png');
+    background-image: url('../assets/logo.png');
 }
 
 #bbnet {
-    background-image: url('assets/bullyball.png');
+    background-image: url('../assets/bullyball.png');
     color: black;
     text-shadow: 2px 2px 2px #fff;
 }
 
 #dbb {
-    background-image: url('assets/badboys.png');
+    background-image: url('../assets/badboys.png');
 }
 
 #dfp {
-    background-image: url('assets/dfp.png');
+    background-image: url('../assets/dfp.png');
 }
 
 #brp {
-    background-image: url('assets/br.png');
+    background-image: url('../assets/br.png');
 }
 
 .carousel-item:hover {

@@ -1,6 +1,6 @@
 async function setDraftPickPositions() {
     try {
-      const response = await fetch('standings.json');
+      const response = await fetch('../data/standings.json');
       const data = await response.json();
   
       const teams = data.response;
