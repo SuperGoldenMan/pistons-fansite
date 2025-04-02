@@ -12,7 +12,9 @@ async function loadGameData() {
 }
 
 function getTeamLogoPath(teamId) {
-    return `../assets/team-logos/${teamId}.png`;
+    const isGitHubPages = window.location.hostname.includes('github.io');
+    const baseAssetPath = isGitHubPages ? '/pistons-fansite/assets/team-logos/' : '../assets/team-logos/';
+    return `${baseAssetPath}${teamId}.png`;
 }
 
 function displayFixtures(data) {
