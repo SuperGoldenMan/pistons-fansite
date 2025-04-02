@@ -1,6 +1,8 @@
 async function loadMobileGameData() {
+    const isGitHubPages = window.location.hostname.includes('github.io');
+    const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
     try {
-        const response = await fetch('../data/pistonsgames.json');
+        const response = await fetch(`${basePath}pistonsgames.json`);
         const data = await response.json();
         displayMobileFixtures(data);
     } catch (error) {

@@ -40,13 +40,18 @@ const players = [
 ];
 
 // Load JSON data
+const isGitHubPages = window.location.hostname.includes('github.io');
+const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
+
 Promise.all([
-  fetch('../data/playerstats.json').then(res => res.json()),
-  fetch('../data/pistonsgames.json').then(res => res.json())
-]).then(([playerData, gameData]) => {
+  fetch(`${basePath}playerstats.json`).then(res => res.json()),
+  fetch(`${basePath}pistonsgames.json`).then(res => res.json())
+])
+.then(([playerData, gameData]) => {
   window.fullStatsData = playerData;
   window.pistonsGameData = gameData.response;
 });
+
 
 // Helper to get game date
 function getGameDate(gameId) {

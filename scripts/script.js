@@ -1,6 +1,9 @@
 async function loadGameData() {
+    const isGitHubPages = window.location.hostname.includes('github.io');
+    const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
+
     try {
-        const response = await fetch('../data/pistonsgames.json');
+        const response = await fetch(`${basePath}pistonsgames.json`);
         const data = await response.json();
         displayFixtures(data);
     } catch (error) {

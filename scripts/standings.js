@@ -1,6 +1,9 @@
 async function loadStandings() {
+    const isGitHubPages = window.location.hostname.includes('github.io');
+    const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
+
     try {
-        const response = await fetch('../data/standings.json'); 
+        const response = await fetch(`${basePath}standings.json`); 
         const data = await response.json();
         displayStandings(data);
     } catch (error) {
