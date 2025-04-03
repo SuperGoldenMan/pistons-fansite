@@ -1,6 +1,8 @@
+import { getTeamLogoPath, getBaseDataPath } from './utils/pathHelpers.js';
+
+const basePath = getBaseDataPath();
+
 async function loadMobileGameData() {
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
     try {
         const response = await fetch(`${basePath}pistonsgames.json`);
         const data = await response.json();
@@ -10,9 +12,6 @@ async function loadMobileGameData() {
     }
 }
 
-function getTeamLogoPath(teamId) {
-    return `../assets/team-logos/${teamId}.png`;
-}
 
 function displayMobileFixtures(data) {
     const lastResultsContainer = document.getElementById("mobile-last-results");

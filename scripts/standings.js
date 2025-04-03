@@ -1,7 +1,8 @@
-async function loadStandings() {
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
+import { getTeamLogoPath, getBaseDataPath } from './utils/pathHelpers.js';
 
+const basePath = getBaseDataPath();
+
+async function loadStandings() {
     try {
         const response = await fetch(`${basePath}standings.json`); 
         const data = await response.json();
@@ -24,12 +25,6 @@ function displayStandings(data) {
         .filter(team => team.conference.name === "west")
         .sort((a, b) => a.conference.rank - b.conference.rank);
 
-    // Function to construct the image path based on your custom images
-    function getTeamLogoPath(teamId) {
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    const baseAssetPath = isGitHubPages ? '/pistons-fansite/assets/team-logos/' : '../assets/team-logos/';
-    return `${baseAssetPath}${teamId}.png`;
-}
 
     // Populate Eastern Conference Table
     easternConference.forEach(teamData => {

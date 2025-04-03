@@ -1,7 +1,9 @@
-async function loadGameData() {
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    const basePath = isGitHubPages ? '/pistons-fansite/data/' : '../data/';
+import { getTeamLogoPath, getBaseDataPath } from './utils/pathHelpers.js';
 
+const basePath = getBaseDataPath();
+
+
+async function loadGameData() {
     try {
         const response = await fetch(`${basePath}pistonsgames.json`);
         const data = await response.json();
@@ -9,12 +11,6 @@ async function loadGameData() {
     } catch (error) {
         console.error("Error loading game data:", error);
     }
-}
-
-function getTeamLogoPath(teamId) {
-    const isGitHubPages = window.location.hostname.includes('github.io');
-    const baseAssetPath = isGitHubPages ? '/pistons-fansite/assets/team-logos/' : '../assets/team-logos/';
-    return `${baseAssetPath}${teamId}.png`;
 }
 
 function displayFixtures(data) {
