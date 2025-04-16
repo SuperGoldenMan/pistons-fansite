@@ -31,7 +31,7 @@
                 "gamesBehind": null
             },
             "win": {
-                "home": 27,
+                "home": 28,
                 "away": 33,
                 "total": 61,
                 "percentage": "0.744",
@@ -45,7 +45,7 @@
                 "lastTen": 2
             },
             "gamesBehind": null,
-            "streak": 1,
+            "streak": 2,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -74,21 +74,21 @@
             },
             "win": {
                 "home": 27,
-                "away": 23,
+                "away": 24,
                 "total": 51,
                 "percentage": "0.622",
-                "lastTen": 5
+                "lastTen": 6
             },
             "loss": {
                 "home": 14,
                 "away": 17,
                 "total": 31,
                 "percentage": "0.378",
-                "lastTen": 5
+                "lastTen": 4
             },
             "gamesBehind": "10",
-            "streak": 3,
-            "winStreak": false,
+            "streak": 1,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -112,24 +112,24 @@
                 "rank": 3,
                 "win": 30,
                 "loss": 52,
-                "gamesBehind": "30"
+                "gamesBehind": "31"
             },
             "win": {
                 "home": 18,
                 "away": 12,
                 "total": 30,
                 "percentage": "0.366",
-                "lastTen": 6
+                "lastTen": 5
             },
             "loss": {
                 "home": 23,
-                "away": 28,
+                "away": 29,
                 "total": 52,
                 "percentage": "0.634",
-                "lastTen": 4
+                "lastTen": 5
             },
-            "gamesBehind": "30",
-            "streak": 1,
+            "gamesBehind": "31",
+            "streak": 2,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -154,7 +154,7 @@
                 "rank": 4,
                 "win": 26,
                 "loss": 56,
-                "gamesBehind": "34"
+                "gamesBehind": "35"
             },
             "win": {
                 "home": 12,
@@ -164,14 +164,14 @@
                 "lastTen": 3
             },
             "loss": {
-                "home": 28,
+                "home": 29,
                 "away": 27,
                 "total": 56,
                 "percentage": "0.683",
                 "lastTen": 7
             },
-            "gamesBehind": "34",
-            "streak": 2,
+            "gamesBehind": "35",
+            "streak": 3,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -196,7 +196,7 @@
                 "rank": 5,
                 "win": 24,
                 "loss": 58,
-                "gamesBehind": "36"
+                "gamesBehind": "37"
             },
             "win": {
                 "home": 12,
@@ -206,14 +206,14 @@
                 "lastTen": 1
             },
             "loss": {
-                "home": 28,
+                "home": 29,
                 "away": 29,
                 "total": 58,
                 "percentage": "0.707",
                 "lastTen": 9
             },
-            "gamesBehind": "36",
-            "streak": 1,
+            "gamesBehind": "37",
+            "streak": 2,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -245,18 +245,18 @@
                 "away": 30,
                 "total": 64,
                 "percentage": "0.780",
-                "lastTen": 7
+                "lastTen": 6
             },
             "loss": {
-                "home": 6,
+                "home": 7,
                 "away": 11,
                 "total": 18,
                 "percentage": "0.220",
-                "lastTen": 3
+                "lastTen": 4
             },
             "gamesBehind": null,
             "streak": 1,
-            "winStreak": true,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -280,25 +280,25 @@
                 "rank": 2,
                 "win": 50,
                 "loss": 32,
-                "gamesBehind": "15"
+                "gamesBehind": "14"
             },
             "win": {
                 "home": 29,
-                "away": 19,
+                "away": 20,
                 "total": 50,
                 "percentage": "0.610",
-                "lastTen": 7
+                "lastTen": 8
             },
             "loss": {
                 "home": 11,
                 "away": 20,
                 "total": 32,
                 "percentage": "0.390",
-                "lastTen": 3
+                "lastTen": 2
             },
-            "gamesBehind": "15",
+            "gamesBehind": "14",
             "streak": 1,
-            "winStreak": false,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -322,24 +322,24 @@
                 "rank": 3,
                 "win": 48,
                 "loss": 34,
-                "gamesBehind": "17"
+                "gamesBehind": "16"
             },
             "win": {
-                "home": 26,
+                "home": 27,
                 "away": 20,
                 "total": 48,
                 "percentage": "0.585",
-                "lastTen": 7
+                "lastTen": 8
             },
             "loss": {
                 "home": 14,
                 "away": 20,
                 "total": 34,
                 "percentage": "0.415",
-                "lastTen": 3
+                "lastTen": 2
             },
-            "gamesBehind": "17",
-            "streak": 7,
+            "gamesBehind": "16",
+            "streak": 8,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -371,17 +371,17 @@
                 "away": 22,
                 "total": 44,
                 "percentage": "0.537",
-                "lastTen": 5
+                "lastTen": 4
             },
             "loss": {
                 "home": 19,
-                "away": 18,
+                "away": 19,
                 "total": 38,
                 "percentage": "0.463",
-                "lastTen": 5
+                "lastTen": 6
             },
             "gamesBehind": "20",
-            "streak": 1,
+            "streak": 2,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -406,11 +406,11 @@
                 "rank": 5,
                 "win": 39,
                 "loss": 43,
-                "gamesBehind": "26"
+                "gamesBehind": "25"
             },
             "win": {
                 "home": 18,
-                "away": 20,
+                "away": 21,
                 "total": 39,
                 "percentage": "0.476",
                 "lastTen": 7
@@ -422,8 +422,8 @@
                 "percentage": "0.524",
                 "lastTen": 3
             },
-            "gamesBehind": "26",
-            "streak": 2,
+            "gamesBehind": "25",
+            "streak": 3,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -455,18 +455,18 @@
                 "away": 19,
                 "total": 41,
                 "percentage": "0.500",
-                "lastTen": 8
+                "lastTen": 7
             },
             "loss": {
                 "home": 19,
-                "away": 21,
+                "away": 22,
                 "total": 41,
                 "percentage": "0.500",
-                "lastTen": 2
+                "lastTen": 3
             },
             "gamesBehind": null,
-            "streak": 5,
-            "winStreak": true,
+            "streak": 1,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -490,24 +490,24 @@
                 "rank": 2,
                 "win": 40,
                 "loss": 42,
-                "gamesBehind": "2"
+                "gamesBehind": "1"
             },
             "win": {
-                "home": 20,
+                "home": 21,
                 "away": 19,
                 "total": 40,
                 "percentage": "0.488",
-                "lastTen": 4
+                "lastTen": 5
             },
             "loss": {
                 "home": 19,
                 "away": 22,
                 "total": 42,
                 "percentage": "0.512",
-                "lastTen": 6
+                "lastTen": 5
             },
-            "gamesBehind": "2",
-            "streak": 2,
+            "gamesBehind": "1",
+            "streak": 3,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -539,18 +539,18 @@
                 "away": 17,
                 "total": 37,
                 "percentage": "0.451",
-                "lastTen": 7
+                "lastTen": 6
             },
             "loss": {
-                "home": 21,
+                "home": 22,
                 "away": 23,
                 "total": 45,
                 "percentage": "0.549",
-                "lastTen": 3
+                "lastTen": 4
             },
             "gamesBehind": "4",
             "streak": 1,
-            "winStreak": true,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -585,13 +585,13 @@
             },
             "loss": {
                 "home": 29,
-                "away": 33,
+                "away": 34,
                 "total": 63,
                 "percentage": "0.768",
                 "lastTen": 9
             },
             "gamesBehind": "22",
-            "streak": 6,
+            "streak": 7,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -616,11 +616,11 @@
                 "rank": 5,
                 "win": 18,
                 "loss": 64,
-                "gamesBehind": "24"
+                "gamesBehind": "23"
             },
             "win": {
                 "home": 8,
-                "away": 9,
+                "away": 10,
                 "total": 18,
                 "percentage": "0.220",
                 "lastTen": 2
@@ -632,9 +632,9 @@
                 "percentage": "0.780",
                 "lastTen": 8
             },
-            "gamesBehind": "24",
-            "streak": 5,
-            "winStreak": false,
+            "gamesBehind": "23",
+            "streak": 1,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -662,7 +662,7 @@
             },
             "win": {
                 "home": 35,
-                "away": 31,
+                "away": 32,
                 "total": 68,
                 "percentage": "0.829",
                 "lastTen": 8
@@ -675,7 +675,7 @@
                 "lastTen": 2
             },
             "gamesBehind": null,
-            "streak": 3,
+            "streak": 4,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -704,7 +704,7 @@
             },
             "win": {
                 "home": 26,
-                "away": 23,
+                "away": 24,
                 "total": 50,
                 "percentage": "0.610",
                 "lastTen": 5
@@ -717,7 +717,7 @@
                 "lastTen": 5
             },
             "gamesBehind": "18",
-            "streak": 2,
+            "streak": 3,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -745,7 +745,7 @@
                 "gamesBehind": "19"
             },
             "win": {
-                "home": 24,
+                "home": 25,
                 "away": 24,
                 "total": 49,
                 "percentage": "0.598",
@@ -759,7 +759,7 @@
                 "lastTen": 2
             },
             "gamesBehind": "19",
-            "streak": 2,
+            "streak": 3,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -787,22 +787,22 @@
                 "gamesBehind": "32"
             },
             "win": {
-                "home": 21,
+                "home": 22,
                 "away": 14,
                 "total": 36,
                 "percentage": "0.439",
-                "lastTen": 3
+                "lastTen": 4
             },
             "loss": {
                 "home": 19,
                 "away": 27,
                 "total": 46,
                 "percentage": "0.561",
-                "lastTen": 7
+                "lastTen": 6
             },
             "gamesBehind": "32",
-            "streak": 2,
-            "winStreak": false,
+            "streak": 1,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -826,7 +826,7 @@
                 "rank": 5,
                 "win": 17,
                 "loss": 65,
-                "gamesBehind": "50"
+                "gamesBehind": "51"
             },
             "win": {
                 "home": 10,
@@ -837,13 +837,13 @@
             },
             "loss": {
                 "home": 31,
-                "away": 33,
+                "away": 34,
                 "total": 65,
                 "percentage": "0.793",
                 "lastTen": 9
             },
-            "gamesBehind": "50",
-            "streak": 1,
+            "gamesBehind": "51",
+            "streak": 2,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -875,18 +875,18 @@
                 "away": 19,
                 "total": 50,
                 "percentage": "0.610",
-                "lastTen": 7
+                "lastTen": 6
             },
             "loss": {
                 "home": 10,
-                "away": 21,
+                "away": 22,
                 "total": 32,
                 "percentage": "0.390",
-                "lastTen": 3
+                "lastTen": 4
             },
             "gamesBehind": null,
-            "streak": 2,
-            "winStreak": true,
+            "streak": 1,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -910,11 +910,11 @@
                 "rank": 2,
                 "win": 50,
                 "loss": 32,
-                "gamesBehind": "1"
+                "gamesBehind": null
             },
             "win": {
                 "home": 30,
-                "away": 19,
+                "away": 20,
                 "total": 50,
                 "percentage": "0.610",
                 "lastTen": 9
@@ -926,8 +926,8 @@
                 "percentage": "0.390",
                 "lastTen": 1
             },
-            "gamesBehind": "1",
-            "streak": 7,
+            "gamesBehind": null,
+            "streak": 8,
             "winStreak": true,
             "tieBreakerPoints": null
         },
@@ -962,7 +962,7 @@
                 "lastTen": 7
             },
             "loss": {
-                "home": 16,
+                "home": 17,
                 "away": 17,
                 "total": 34,
                 "percentage": "0.415",
@@ -970,7 +970,7 @@
             },
             "gamesBehind": "2",
             "streak": 1,
-            "winStreak": true,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -994,25 +994,25 @@
                 "rank": 4,
                 "win": 40,
                 "loss": 42,
-                "gamesBehind": "11"
+                "gamesBehind": "10"
             },
             "win": {
-                "home": 19,
+                "home": 20,
                 "away": 20,
                 "total": 40,
                 "percentage": "0.488",
-                "lastTen": 4
+                "lastTen": 5
             },
             "loss": {
                 "home": 21,
                 "away": 21,
                 "total": 42,
                 "percentage": "0.512",
-                "lastTen": 6
+                "lastTen": 5
             },
-            "gamesBehind": "11",
-            "streak": 2,
-            "winStreak": false,
+            "gamesBehind": "10",
+            "streak": 1,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -1043,18 +1043,18 @@
                 "away": 12,
                 "total": 36,
                 "percentage": "0.439",
-                "lastTen": 2
+                "lastTen": 1
             },
             "loss": {
                 "home": 17,
-                "away": 28,
+                "away": 29,
                 "total": 46,
                 "percentage": "0.561",
-                "lastTen": 8
+                "lastTen": 9
             },
             "gamesBehind": "14",
             "streak": 1,
-            "winStreak": true,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -1088,14 +1088,14 @@
                 "lastTen": 6
             },
             "loss": {
-                "home": 11,
+                "home": 12,
                 "away": 17,
                 "total": 30,
                 "percentage": "0.366",
                 "lastTen": 4
             },
             "gamesBehind": null,
-            "streak": 2,
+            "streak": 3,
             "winStreak": false,
             "tieBreakerPoints": null
         },
@@ -1120,10 +1120,10 @@
                 "rank": 2,
                 "win": 48,
                 "loss": 34,
-                "gamesBehind": "5"
+                "gamesBehind": "4"
             },
             "win": {
-                "home": 25,
+                "home": 26,
                 "away": 22,
                 "total": 48,
                 "percentage": "0.585",
@@ -1136,9 +1136,9 @@
                 "percentage": "0.415",
                 "lastTen": 6
             },
-            "gamesBehind": "5",
-            "streak": 2,
-            "winStreak": false,
+            "gamesBehind": "4",
+            "streak": 1,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -1169,18 +1169,18 @@
                 "away": 17,
                 "total": 39,
                 "percentage": "0.476",
-                "lastTen": 5
+                "lastTen": 4
             },
             "loss": {
                 "home": 18,
-                "away": 24,
+                "away": 25,
                 "total": 43,
                 "percentage": "0.524",
-                "lastTen": 5
+                "lastTen": 6
             },
             "gamesBehind": "13",
             "streak": 1,
-            "winStreak": true,
+            "winStreak": false,
             "tieBreakerPoints": null
         },
         {
@@ -1204,25 +1204,25 @@
                 "rank": 4,
                 "win": 34,
                 "loss": 48,
-                "gamesBehind": "19"
+                "gamesBehind": "18"
             },
             "win": {
-                "home": 19,
+                "home": 20,
                 "away": 13,
                 "total": 34,
                 "percentage": "0.415",
-                "lastTen": 2
+                "lastTen": 3
             },
             "loss": {
                 "home": 20,
                 "away": 27,
                 "total": 48,
                 "percentage": "0.585",
-                "lastTen": 8
+                "lastTen": 7
             },
-            "gamesBehind": "19",
+            "gamesBehind": "18",
             "streak": 1,
-            "winStreak": false,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
@@ -1256,14 +1256,14 @@
                 "lastTen": 2
             },
             "loss": {
-                "home": 26,
+                "home": 27,
                 "away": 34,
                 "total": 61,
                 "percentage": "0.744",
                 "lastTen": 8
             },
             "gamesBehind": "31",
-            "streak": 6,
+            "streak": 7,
             "winStreak": false,
             "tieBreakerPoints": null
         }

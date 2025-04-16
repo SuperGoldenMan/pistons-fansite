@@ -189,7 +189,7 @@
                 "endOfPeriod": false
             },
             "arena": {
-                "name": "Footprint Center",
+                "name": "PHX Arena",
                 "city": "Phoenix",
                 "state": "AZ",
                 "country": null
@@ -2515,7 +2515,7 @@
                 "endOfPeriod": false
             },
             "arena": {
-                "name": "Footprint Center",
+                "name": "PHX Arena",
                 "city": "Phoenix",
                 "state": "AZ",
                 "country": null
@@ -3875,7 +3875,7 @@
                 "endOfPeriod": false
             },
             "arena": {
-                "name": "Rocket Mortgage FieldHouse",
+                "name": "Rocket Arena",
                 "city": "Cleveland",
                 "state": "OH",
                 "country": null
