@@ -473,48 +473,6 @@
             "league": "standard",
             "season": 2024,
             "team": {
-                "id": 1,
-                "name": "Atlanta Hawks",
-                "nickname": "Hawks",
-                "code": "ATL",
-                "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
-            },
-            "conference": {
-                "name": "east",
-                "rank": 8,
-                "win": 40,
-                "loss": 42
-            },
-            "division": {
-                "name": "southeast",
-                "rank": 2,
-                "win": 40,
-                "loss": 42,
-                "gamesBehind": "1"
-            },
-            "win": {
-                "home": 21,
-                "away": 19,
-                "total": 40,
-                "percentage": "0.488",
-                "lastTen": 5
-            },
-            "loss": {
-                "home": 19,
-                "away": 22,
-                "total": 42,
-                "percentage": "0.512",
-                "lastTen": 5
-            },
-            "gamesBehind": "1",
-            "streak": 3,
-            "winStreak": true,
-            "tieBreakerPoints": null
-        },
-        {
-            "league": "standard",
-            "season": 2024,
-            "team": {
                 "id": 20,
                 "name": "Miami Heat",
                 "nickname": "Heat",
@@ -551,6 +509,48 @@
             "gamesBehind": "4",
             "streak": 1,
             "winStreak": false,
+            "tieBreakerPoints": null
+        },
+        {
+            "league": "standard",
+            "season": 2024,
+            "team": {
+                "id": 1,
+                "name": "Atlanta Hawks",
+                "nickname": "Hawks",
+                "code": "ATL",
+                "logo": "https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png"
+            },
+            "conference": {
+                "name": "east",
+                "rank": 8,
+                "win": 40,
+                "loss": 42
+            },
+            "division": {
+                "name": "southeast",
+                "rank": 2,
+                "win": 40,
+                "loss": 42,
+                "gamesBehind": "1"
+            },
+            "win": {
+                "home": 21,
+                "away": 19,
+                "total": 40,
+                "percentage": "0.488",
+                "lastTen": 5
+            },
+            "loss": {
+                "home": 19,
+                "away": 22,
+                "total": 42,
+                "percentage": "0.512",
+                "lastTen": 5
+            },
+            "gamesBehind": "1",
+            "streak": 3,
+            "winStreak": true,
             "tieBreakerPoints": null
         },
         {
