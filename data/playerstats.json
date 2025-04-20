@@ -5,7 +5,7 @@
         "season": "2024"
     },
     "errors": [],
-    "results": 954,
+    "results": 963,
     "response": [
         {
             "player": {
@@ -37211,6 +37211,357 @@
             "turnovers": 0,
             "blocks": 0,
             "plusMinus": "+4",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 222,
+                "firstname": "Tobias",
+                "lastname": "Harris"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 25,
+            "pos": null,
+            "min": "40",
+            "fgm": 8,
+            "fga": 13,
+            "fgp": "61.5",
+            "ftm": 5,
+            "fta": 5,
+            "ftp": "100.0",
+            "tpm": 4,
+            "tpa": 5,
+            "tpp": "80.0",
+            "offReb": 0,
+            "defReb": 6,
+            "totReb": 6,
+            "assists": 0,
+            "pFouls": 0,
+            "steals": 0,
+            "turnovers": 1,
+            "blocks": 2,
+            "plusMinus": "-16",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 3971,
+                "firstname": "Ausar",
+                "lastname": "Thompson"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 10,
+            "pos": null,
+            "min": "23",
+            "fgm": 4,
+            "fga": 8,
+            "fgp": "50.0",
+            "ftm": 2,
+            "fta": 3,
+            "ftp": "66.7",
+            "tpm": 0,
+            "tpa": 0,
+            "tpp": "0",
+            "offReb": 0,
+            "defReb": 6,
+            "totReb": 6,
+            "assists": 1,
+            "pFouls": 5,
+            "steals": 0,
+            "turnovers": 3,
+            "blocks": 0,
+            "plusMinus": "0",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 215,
+                "firstname": "Tim",
+                "lastname": "Hardaway Jr."
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 19,
+            "pos": null,
+            "min": "28",
+            "fgm": 7,
+            "fga": 13,
+            "fgp": "53.8",
+            "ftm": 2,
+            "fta": 3,
+            "ftp": "66.7",
+            "tpm": 3,
+            "tpa": 8,
+            "tpp": "37.5",
+            "offReb": 1,
+            "defReb": 1,
+            "totReb": 2,
+            "assists": 1,
+            "pFouls": 0,
+            "steals": 1,
+            "turnovers": 2,
+            "blocks": 0,
+            "plusMinus": "-3",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 3433,
+                "firstname": "Jalen",
+                "lastname": "Duren"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 7,
+            "pos": null,
+            "min": "25",
+            "fgm": 3,
+            "fga": 4,
+            "fgp": "75.0",
+            "ftm": 1,
+            "fta": 2,
+            "ftp": "50.0",
+            "tpm": 0,
+            "tpa": 0,
+            "tpp": "0",
+            "offReb": 5,
+            "defReb": 1,
+            "totReb": 6,
+            "assists": 3,
+            "pFouls": 4,
+            "steals": 1,
+            "turnovers": 1,
+            "blocks": 3,
+            "plusMinus": "-20",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 2801,
+                "firstname": "Cade",
+                "lastname": "Cunningham"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 21,
+            "pos": null,
+            "min": "39",
+            "fgm": 8,
+            "fga": 21,
+            "fgp": "38.1",
+            "ftm": 4,
+            "fta": 5,
+            "ftp": "80.0",
+            "tpm": 1,
+            "tpa": 4,
+            "tpp": "25.0",
+            "offReb": 1,
+            "defReb": 5,
+            "totReb": 6,
+            "assists": 12,
+            "pFouls": 3,
+            "steals": 0,
+            "turnovers": 6,
+            "blocks": 0,
+            "plusMinus": "-6",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 4111,
+                "firstname": "Ron II",
+                "lastname": "Holland"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 0,
+            "pos": null,
+            "min": "6",
+            "fgm": 0,
+            "fga": 1,
+            "fgp": "0",
+            "ftm": 0,
+            "fta": 0,
+            "ftp": "0",
+            "tpm": 0,
+            "tpa": 1,
+            "tpp": "0",
+            "offReb": 2,
+            "defReb": 0,
+            "totReb": 2,
+            "assists": 0,
+            "pFouls": 0,
+            "steals": 0,
+            "turnovers": 2,
+            "blocks": 0,
+            "plusMinus": "-7",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 2648,
+                "firstname": "Isaiah",
+                "lastname": "Stewart"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 2,
+            "pos": null,
+            "min": "19",
+            "fgm": 1,
+            "fga": 2,
+            "fgp": "50.0",
+            "ftm": 0,
+            "fta": 0,
+            "ftp": "0",
+            "tpm": 0,
+            "tpa": 0,
+            "tpp": "0",
+            "offReb": 1,
+            "defReb": 4,
+            "totReb": 5,
+            "assists": 1,
+            "pFouls": 5,
+            "steals": 0,
+            "turnovers": 0,
+            "blocks": 2,
+            "plusMinus": "+8",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 472,
+                "firstname": "Dennis",
+                "lastname": "Schroder"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 8,
+            "pos": null,
+            "min": "26",
+            "fgm": 3,
+            "fga": 8,
+            "fgp": "37.5",
+            "ftm": 1,
+            "fta": 2,
+            "ftp": "50.0",
+            "tpm": 1,
+            "tpa": 2,
+            "tpp": "50.0",
+            "offReb": 0,
+            "defReb": 0,
+            "totReb": 0,
+            "assists": 3,
+            "pFouls": 2,
+            "steals": 2,
+            "turnovers": 2,
+            "blocks": 1,
+            "plusMinus": "-2",
+            "comment": null
+        },
+        {
+            "player": {
+                "id": 46,
+                "firstname": "Malik",
+                "lastname": "Beasley"
+            },
+            "team": {
+                "id": 10,
+                "name": "Detroit Pistons",
+                "nickname": "Pistons",
+                "code": "DET",
+                "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Logo_of_the_Detroit_Pistons.png/300px-Logo_of_the_Detroit_Pistons.png"
+            },
+            "game": {
+                "id": 15359
+            },
+            "points": 20,
+            "pos": null,
+            "min": "35",
+            "fgm": 7,
+            "fga": 16,
+            "fgp": "43.8",
+            "ftm": 0,
+            "fta": 0,
+            "ftp": "0",
+            "tpm": 6,
+            "tpa": 12,
+            "tpp": "50.0",
+            "offReb": 1,
+            "defReb": 3,
+            "totReb": 4,
+            "assists": 2,
+            "pFouls": 2,
+            "steals": 2,
+            "turnovers": 2,
+            "blocks": 1,
+            "plusMinus": "-9",
             "comment": null
         }
     ]

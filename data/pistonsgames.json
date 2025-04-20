@@ -6990,11 +6990,11 @@
             "status": {
                 "clock": null,
                 "halftime": false,
-                "short": 1,
-                "long": "Scheduled"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 0,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -7022,24 +7022,34 @@
             },
             "scores": {
                 "visitors": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "27",
+                        "28",
+                        "36",
+                        "21"
+                    ],
+                    "points": 112
                 },
                 "home": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "27",
+                        "30",
+                        "26",
+                        "40"
+                    ],
+                    "points": 123
                 }
             },
             "officials": [],
@@ -7122,7 +7132,7 @@
             "league": "standard",
             "season": 2024,
             "date": {
-                "start": "2025-04-24T04:00:00.000Z",
+                "start": "2025-04-24T23:00:00.000Z",
                 "end": null,
                 "duration": null
             },
