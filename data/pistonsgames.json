@@ -7302,7 +7302,7 @@
             "league": "standard",
             "season": 2024,
             "date": {
-                "start": "2025-04-29T04:00:00.000Z",
+                "start": "2025-04-29T23:30:00.000Z",
                 "end": null,
                 "duration": null
             },
@@ -7310,11 +7310,11 @@
             "status": {
                 "clock": null,
                 "halftime": false,
-                "short": 1,
-                "long": "Scheduled"
+                "short": 3,
+                "long": "Finished"
             },
             "periods": {
-                "current": 0,
+                "current": 4,
                 "total": 4,
                 "endOfPeriod": false
             },
@@ -7342,24 +7342,34 @@
             },
             "scores": {
                 "visitors": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "22",
+                        "27",
+                        "28",
+                        "29"
+                    ],
+                    "points": 106
                 },
                 "home": {
-                    "win": null,
-                    "loss": null,
+                    "win": 0,
+                    "loss": 0,
                     "series": {
-                        "win": null,
-                        "loss": null
+                        "win": 0,
+                        "loss": 0
                     },
-                    "linescore": [],
-                    "points": null
+                    "linescore": [
+                        "23",
+                        "27",
+                        "24",
+                        "29"
+                    ],
+                    "points": 103
                 }
             },
             "officials": [],
@@ -7372,7 +7382,7 @@
             "league": "standard",
             "season": 2024,
             "date": {
-                "start": "2025-05-01T04:00:00.000Z",
+                "start": "2025-05-01T23:30:00.000Z",
                 "end": null,
                 "duration": null
             },
