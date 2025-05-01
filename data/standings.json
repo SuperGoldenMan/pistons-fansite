@@ -183,7 +183,7 @@
                 "name": "Philadelphia 76ers",
                 "nickname": "76ers",
                 "code": "PHI",
-                "logo": "https://upload.wikimedia.org/wikipedia/fr/4/48/76ers_2016.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/Philadelphia_76ers_logo.svg/1024px-Philadelphia_76ers_logo.svg.png"
             },
             "conference": {
                 "name": "east",
@@ -309,7 +309,7 @@
                 "name": "Milwaukee Bucks",
                 "nickname": "Bucks",
                 "code": "MIL",
-                "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Milwaukee_Bucks_logo.svg/620px-Milwaukee_Bucks_logo.svg.png"
             },
             "conference": {
                 "name": "east",
@@ -435,7 +435,7 @@
                 "name": "Orlando Magic",
                 "nickname": "Magic",
                 "code": "ORL",
-                "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bd/Orlando_Magic_logo_2010.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Orlando_Magic_logo.svg/1024px-Orlando_Magic_logo.svg.png"
             },
             "conference": {
                 "name": "east",
@@ -477,7 +477,7 @@
                 "name": "Miami Heat",
                 "nickname": "Heat",
                 "code": "MIA",
-                "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/1/1c/Miami_Heat_-_Logo.svg/1200px-Miami_Heat_-_Logo.svg.png"
+                "logo": "http://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Miami_Heat_logo.svg/742px-Miami_Heat_logo.svg.png"
             },
             "conference": {
                 "name": "east",
@@ -645,7 +645,7 @@
                 "name": "Oklahoma City Thunder",
                 "nickname": "Thunder",
                 "code": "OKC",
-                "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png"
+                "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Oklahoma_City_Thunder.svg/836px-Oklahoma_City_Thunder.svg.png"
             },
             "conference": {
                 "name": "west",
